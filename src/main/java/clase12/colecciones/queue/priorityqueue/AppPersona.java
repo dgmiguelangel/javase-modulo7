@@ -17,7 +17,7 @@ public class AppPersona {
 		personas.add(p1);
 		personas.add(p2);
 		personas.add(p3);
-		
+				
 		while(!personas.isEmpty()) {
 			System.out.println(personas.poll());
 		}

@@ -14,9 +14,11 @@ public class App {
 		nombres.add("mariana");
 		nombres.add("ana");
 		
-		System.out.println(nombres.element());
+//		System.out.println(nombres.element());
 		
 //		nombres.offer("ana");
+		
+		System.out.println(nombres.toString());
 		
 		while(!nombres.isEmpty()) {
 			System.out.println(nombres.poll());

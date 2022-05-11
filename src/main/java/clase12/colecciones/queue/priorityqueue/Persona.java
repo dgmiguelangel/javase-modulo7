@@ -40,7 +40,7 @@ public class Persona implements Comparable<Persona>{
 	public int compareTo(Persona o) {
 		int c = this.getNombre().compareTo(o.getNombre());
 		if(c == 0) {
-			return this.getApellido().compareTo(o.getApellido());
+			c = this.getApellido().compareTo(o.getApellido());
 		}
 		return c;
 	}
